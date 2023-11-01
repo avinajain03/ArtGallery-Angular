@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="mb-3" id="head">See your Favourites!</h1>
+            <ul class="list-unstyled row">
+                <li class="col-md-4 mb-3" *ngFor="let artwork of favorites">
+                    <div class="card">
+                        <img class="card-img-top" [src]="getImageUrl(artwork.image_id)" [alt]="artwork.title">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ artwork.title }}</h5>
+                            <p class="card-text">{{ artwork.artist_display }}</p>
+                            <p class="card-text"><strong>Artwork Type:</strong> {{artwork.artwork_type_title}}</p>
+                            <p class="card-text"><strong>Reference Number:</strong> {{artwork.main_reference_number}}
+                            </p>
+                            <p class="card-text"><strong>Credit Line:</strong> {{artwork.credit_line}}</p>
+                            <p class="card-text"><strong>Department Title:</strong> {{artwork.department_title}}</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

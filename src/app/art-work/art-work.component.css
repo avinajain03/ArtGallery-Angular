@@ -1,0 +1,53 @@
+#image{
+    height: 350px;
+    width: 350px;
+}
+.form-control{
+    margin-top: 25px;
+    border: 1px solid black;
+
+}
+.card-title{
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+/* .btn{
+    margin-left: 30px;
+    
+} */
+#btn-fav
+{
+    margin-left: 150px;
+    font-size: 20px;
+}
+#btn-view
+{
+    background-color: #cc393e;
+    color: white;
+}
+#btn-pag1{
+    
+    background-color: #cc393e;
+    color: white;
+}
+#btn-pag2{
+   
+    background-color: #cc393e;
+    color: white;
+}
+#view
+{
+    padding: 3px;
+}
+
+.socials
+{
+    text-decoration: none;
+    font-size: 18px;
+    /* margin: 5px; */
+    padding: 2.5px;
+    /* margin-left: 2.5px; */
+}

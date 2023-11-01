@@ -1,0 +1,30 @@
+<!-- <div class="card">
+    <img class="card-img-top" id="img" [src]="'https://www.artic.edu/iiif/2/' + data.image_id + '/full/843,/0/default.jpg'">
+    <div class="card-body">
+      <h5 class="card-title">{{data.title}}</h5>
+      <p class="card-text"><strong>Artist:</strong> {{data.artist_display}}</p>
+      <p class="card-text"><strong>Artwork Type:</strong> {{data.artwork_type_title}}</p>
+      <p class="card-text"><strong>Reference Number:</strong> {{data.main_reference_number}}</p>
+      <p class="card-text"><strong>Credit Line:</strong> {{data.credit_line}}</p>
+      <p class="card-text"><strong>Department Title:</strong> {{data.department_title}}</p>
+      <p class="card-text"><strong>Description:</strong> {{data.description}}</p>
+    </div>
+  </div> -->
+  <div class="card">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img class="card-img-top float-left" id="img" [src]="'https://www.artic.edu/iiif/2/' + data.image_id + '/full/843,/0/default.jpg'" alt="{{data.title}}">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body ml-3">
+          <h5 class="card-title">{{data.title}}</h5>
+          <p class="card-text"><strong>Artist:</strong> {{data.artist_display}}</p>
+          <p class="card-text"><strong>Artwork Type:</strong> {{data.artwork_type_title}}</p>
+          <p class="card-text"><strong>Reference Number:</strong> {{data.main_reference_number}}</p>
+          <p class="card-text"><strong>Credit Line:</strong> {{data.credit_line}}</p>
+          <p class="card-text"><strong>Department Title:</strong> {{data.department_title}}</p>
+          <!-- <p class="card-text"><strong>Description:</strong> {{data.description}}</p> -->
+        </div>
+      </div>
+    </div>
+  </div>

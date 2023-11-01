@@ -1,0 +1,43 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-out;
+  border-radius: 10px;
+  margin-left: 260px;
+  margin-top: 50px;
+  margin-right: 20px;
+  height: 355px;
+  width: 950px;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 100%;
+}
+
+.card-title {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-text {
+  margin-bottom: 0.75rem;
+}
+
+.card-img-top.float-left {
+  width: 350px;
+  height: 350px;
+}
+
+
+.card-body.ml-3 {
+  margin-left: 1rem;
+  margin-right: 0;
+}

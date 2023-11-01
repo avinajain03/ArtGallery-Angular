@@ -1,0 +1,34 @@
+
+
+#navbarNav
+{
+    margin-left: 950px;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+
+
+
+  .navbar-brand {
+    margin-right: auto !important;
+    margin-left: 1rem !important;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-top: 0;
+      justify-content: flex-end;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      margin-left: auto !important;
+    }
+    .nav-item, .nav-link {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    .navbar-toggler {
+      margin-right: 0;
+    }
+  }
